@@ -1,6 +1,6 @@
 # Site settings
 title_left    : "DCL"
-title_right   : "space" # default: ""
+title_right   : "" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://dclcs.github.io # site url
