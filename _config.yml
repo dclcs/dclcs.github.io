@@ -3,14 +3,14 @@ permalink: /:title/
 url: http://dclcs.github.io
 name: DCL
 author: DCL
-qq: 
-# email: wanguolin@gmail.com
-# duoshuo: wanguolin
-# beian: 就不备案 
-# cnzz: 1000233772
+qq: 1111
+email: wanguolin@gmail.com
+duoshuo: wanguolin
+beian: 就不备案 
+cnzz: 1000233772
 github: wanguolin
 pygments: true
 safe: true
 paginate: 20
-# about: "这是我在github搭建的一个读书笔记类型的博客，他采用了yihui同学的框架。"
+about: "这是我在github搭建的一个读书笔记类型的博客，他采用了yihui同学的框架。"
 
