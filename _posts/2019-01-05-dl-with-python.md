@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2019/01/05 deep learning with python notes 数据表达"
+title: "deep learning with python notes 数据表达"
 description: "dl"
 category: dl
 tags: [dl]
