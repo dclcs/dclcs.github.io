@@ -19,6 +19,7 @@ tags: [图形深度学习]
 
 ### `2.` 计算机图形中的问题
 - Analysis
+
     - 特征检测(图形特征和point features)
         
         $\R^{m\times m} \to \Z$
@@ -30,6 +31,7 @@ tags: [图形深度学习]
         $\R^{m\times m, m\times m} \to \R^d$
 
 - synthesis
+
     - 渲染
 
         $ \R^{m\times m} \to \R^{m\times m} $
