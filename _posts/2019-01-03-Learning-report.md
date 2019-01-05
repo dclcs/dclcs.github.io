@@ -26,20 +26,10 @@ tags: [图形深度学习]
     - Embedding, Distance computation: $$R^{m\times m, m\times m} \to R^d$$
 
 - synthesis
-
-    - 渲染
-
-        $$R^{m\times m} \to R^{m\times m}$$
-    - 动画
-
-        $$R^{3m \times t} \to R^{3m}$$
-    - 物理仿真
-
-        $$R^{3m \times t} \to R^{3m}$$
-    
-    - 产生模型
-
-        $$R^d \to R^{m \times m}$$
+    - 渲染: $$R^{m\times m} \to R^{m\times m}$$
+    - 动画: $$R^{3m \times t} \to R^{3m}$$
+    - 物理仿真: $$R^{3m \times t} \to R^{3m}$$
+    - 产生模型: $$R^d \to R^{m \times m}$$
 
 
 
