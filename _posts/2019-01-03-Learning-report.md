@@ -32,7 +32,7 @@ tags: [图形深度学习]
 - synthesis
     - 渲染
 
-        $\R^{m\times m} \to \R^{m\times m}$
+        $ \R^{m\times m} \to \R^{m\times m} $
     - 动画
 
         $\R^{3m \times t} \to \R^{3m}$
