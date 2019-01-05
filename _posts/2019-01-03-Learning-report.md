@@ -22,13 +22,13 @@ tags: [图形深度学习]
 
     - 特征检测(图形特征和point features)
         
-        $\R^{m\times m} \to \Z$
+        $$\R^{m\times m} \to \Z$$
     - 去躁,光滑。。。
 
-        $\R^{m\times m} \to \R^{m\times m}$
+        $$\R^{m\times m} \to \R^{m\times m}$$
     - Embedding, Distance computation
 
-        $\R^{m\times m, m\times m} \to \R^d$
+        $$\R^{m\times m, m\times m} \to \R^d$$
 
 - synthesis
 
