@@ -56,6 +56,40 @@ $$n: latent variable count；w\times h\times c:图形的维度，长、宽、通
 ### `4.` 数据驱动算法
 
 - 监督算法
-
     ![12](../images\data-driven.png)
+- 非监督算法
+    ![12](../images\data-driven2.png)
+
+
+### `5.` 端到端
+#### 学习特征
+- Old days:
+    - 手动提取特征
+    - 大多数使用线性模型（例如PCA)
+- Now:
+    - 端对端
+    - 避免使用手动标记表达形式
+![end-to-end](../images\end-to-end-features.png)
+![end-to-end](../images\end-to-end-features2.png)
+#### 学习损失
+- Old days:
+    - 最后再进行评估
+    - 有一点可以选择
+        - 你可能有一个很好的算法但是没有一个很好的方法去评估
+        - 评估有助于发表文章（？？）
+- Now:
+    - 损失很重要并且是组成的重要部分
+    - 如果损失不好那么你的结果也不好
+    - （扩展）评估一般自动发生
+
+#### Real/Generated Data
+- Old days
+    - 在一些toy例子上进行测试
+    - 部署在实际的物体上
+    - 可能最后才收集到一些结果数据
+- Now:
+    - Test and deploy need to be as identical
+(in distribution)
+    - Need to collect data first
+    - No two steps
 
