@@ -21,9 +21,7 @@ tags: [图形深度学习]
 
 
 - Analysis
-    - 特征检测(图形特征和point features)
-        
-        $$R^{m\times m} \to Z$$
+    - 特征检测(图形特征和point features): $$R^{m\times m} \to Z$$
     - 去躁,光滑。。。
 
         $$R^{m\times m} \to R^{m\times m}$$
