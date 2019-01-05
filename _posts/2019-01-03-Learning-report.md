@@ -43,13 +43,13 @@ $$\theta: 函数参数，X: `source\ domain`(源空间), Y: 目标空间, 这是
 #### `例子`
 - 图形分类
 
-$$f_\theta: \R^{w\times h\times c} \to \{0, 1,2,..., k-1\}$$
+$$f_\theta: R^{w\times h\times c} \to \{0, 1,2,..., k-1\}$$
 
 $$w\times h\times c: 图形的维度，长、宽、通道；k: 类别数$$
 
 - 图形合成
 
-$$f_\theta: \R^n \to \R^{w\times h\times c}$$
+$$f_\theta: R^n \to R^{w\times h\times c}$$
 $$n: latent variable count；w\times h\times c:图形的维度，长、宽、通道$$
 
 
@@ -57,9 +57,5 @@ $$n: latent variable count；w\times h\times c:图形的维度，长、宽、通
 
 - 监督算法
 
-graph LR
+    ![12](../images\data-driven.png)
 
-    A-->B
-    B-->C
-    C-->D
-    D-->A
