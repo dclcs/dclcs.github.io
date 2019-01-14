@@ -15,7 +15,7 @@ tags: [dl]
 - sigmoid function ： $h(x) = \frac{1}{1 + exp(-x)}$
 - !['sigmoid'](../images\sigmoid.png)
 #### 3.2.2 阶跃函数的实现
-- 简单的数学表达式:$h(x) = \begin{cases} 0 & (x \le 0) \\ 1 & (x \gt 0)\end{cases}$
+- 简单的数学表达式:$h(x) = \begin{cases} 0 & (x \le 0) \\\ 1 & (x \gt 0)\end{cases}$
 #### 3.2.3 阶跃函数的图形
 !['step'](../images\step.png)
 #### 3.2.5 比较
@@ -25,5 +25,5 @@ tags: [dl]
 #### 3.2.6 非线性函数
 - 神经网络的激活函数必须使用非线性函数，因为使用线性函数的话，加深神经网络的层数没有意义
 #### 3.2.7 ReLU 函数
-- $h(x) = \begin{cases} x & (x > 0) \\ 1 & (x \le 0)\end{cases}$
+- $h(x) = \begin{cases} x & (x > 0) \\\ 1 & (x \le 0)\end{cases}$
 - !['relu'](../images\relu.png)
