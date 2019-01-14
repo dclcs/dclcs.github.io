@@ -10,7 +10,7 @@ tags: [dl]
 
 ## 神经网络
 ### 3.2 感知机
-- 将$y = \begin{cases} 0 & (b+w_1x_1 + w_2x_2 \le 0) \\ 1 & (b+w_1x_1+w_2x_2 \gt 0) \end{cases}$改写成$y=h(b+w_1x_1+w_2x_2)$，其中$h(x) = \begin{cases} 0 & (x \le 0) \\ 1 & (x \gt 0)\end{cases}$,称$h(x)$为激活函数/阶跃函数。
+- 将$y = \begin{cases} 0 & (b+w_1x_1 + w_2x_2 \le 0) \\\ 1 & (b+w_1x_1+w_2x_2 \gt 0) \end{cases}$改写成$y=h(b+w_1x_1+w_2x_2)$，其中$h(x) = \begin{cases} 0 & (x \le 0) \\ 1 & (x \gt 0)\end{cases}$,称$h(x)$为激活函数/阶跃函数。
 #### 3.2.1 sigmoid函数
 - sigmoid function ： $h(x) = \frac{1}{1 + exp(-x)}$
 - !['sigmoid'](../images\sigmoid.png)
@@ -26,3 +26,4 @@ tags: [dl]
 - 神经网络的激活函数必须使用非线性函数，因为使用线性函数的话，加深神经网络的层数没有意义
 #### 3.2.7 ReLU 函数
 - $h(x) = \begin{cases} x & (x > 0) \\ 1 & (x \le 0)\end{cases}$
+- !['relu'](../images\relu.png)
