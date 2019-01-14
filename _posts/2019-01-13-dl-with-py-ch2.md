@@ -43,3 +43,13 @@ $y = \begin{cases}0,& {b + w_1x_1 + w_2x_2 \le \theta} \\ 1, & {b + w_1x_1 + w_2
 
 ### 2.5 多层感知机
 !['多层感知机'](../images\perce.png)
+
+
+
+
+
+
+
+<hr>
+
+[code](https://www.baidu.com)
