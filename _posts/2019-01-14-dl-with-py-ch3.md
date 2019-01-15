@@ -49,3 +49,6 @@ tags: [dl]
 - softmax函数: $y_k = \frac {exp(a_k)}{\sum_{i=1}^n exp(a_i)}$
 #### 3.5.2 softmax的改进
 - $y_k = \frac {exp(a_k)}{\sum_{i=1}^n exp(a_i)} = \frac {Cexp(a_k)}{C\sum_{i=1}^n exp(a_i)} = \frac {exp(a_k + logC)}{\sum_{i=1}^n exp(a_i + logC)}= \frac {exp(a_k + C^{'})}{\sum_{i=1}^n exp(a_i + C^{'})}$
+
+
+[code](https://github.com/dclcs/deep_learning_with_python_code/blob/master/deep_learning_with_python_code_ch3.ipynb)

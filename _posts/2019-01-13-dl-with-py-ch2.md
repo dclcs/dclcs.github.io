@@ -52,4 +52,4 @@ $y = \begin{cases}0,& {b + w_1x_1 + w_2x_2 \le \theta} \\ 1, & {b + w_1x_1 + w_2
 
 <hr>
 
-[code](https://www.baidu.com)
+[code](https://github.com/dclcs/deep_learning_with_python_code/blob/master/deep_learning_with_python_code_ch2.ipynb)
