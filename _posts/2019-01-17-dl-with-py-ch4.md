@@ -4,8 +4,11 @@ author: dcl
 categoies: dl
 CreateTime: 2019-01-05 17:23:3 +0800
 ---
+
 deep learning with python
 <!--more -->
+
+
 ### 4.2 损失函数
 - 损失函数表示神经网络性能的“恶劣”程度的指标。
 #### 4.2.1 均方误差
