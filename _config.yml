@@ -3,7 +3,6 @@ markdown: redcarpet
 highlighter: pygments
 permalink: :title
 exclude: [README.md, LICENSE, Makefile]
-baseurl: '/_post'
 
 # Information for the Atom feed
 gereksiz:
