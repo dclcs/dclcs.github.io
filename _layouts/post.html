@@ -1,38 +1,32 @@
 ---
 layout: default
 ---
-<section class="meta">
-<span class="time">
-  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-</span>
-{% if page.categories.size != 0 %}
- | 
-<span class="categories">
-  分类
-  {% for cat in page.categories %}
-  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
-  {% endfor %}
-</span>
-{% endif %}
-{% if page.tags.size != 0 %}
- | 
-<span class="tags">
-  标签
-  {% for tag in page.tags %}
-  <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
-  {% endfor %}
-</span>
-{% endif %}
-</section>
-<section class="post">
-{{ content }}
-</section>
-<section align="right">
-<br/>
-<span>
-	<a {% if page.previous %} href="{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>
-	&nbsp;&nbsp;&nbsp;
-	<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>
-</span>
-</section>
-{% include comments.md %}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+      <div class="page">
+
+        <header class="page-header">
+          <h3 class="page-title"><a href="{{page.url|prepend: site.baseurl}}">{{ page.title }}</a></h3>
+          <div class="post-metadata">
+            <div> <i class="fa fa-calendar"></i>
+              <time>
+                {{ page.date | date:'%A, %B %d, %Y'}}
+              </time>
+            </div>
+            <div> <i class="fa fa-tag"></i>
+                {% for tag in page.tags %}
+                  <span class="label label-tag">{{tag}}</span>
+                {% endfor %}
+            </div>
+          </div>
+
+        </header>
+
+        <article class="page-content">
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

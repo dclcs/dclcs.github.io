@@ -1,16 +1,23 @@
-markdown: kramdown
-permalink: /:title/
-url: http://dclcs.github.io
-name: 小天才的BLOG
-author: DCL
-qq: 2351741841
-email: dcl_1016@outlook.com
-duoshuo: none
-beian: 123456 
-cnzz: 0000
-github: dclcs
-pygments: true
-safe: true
-paginate: 20
-about: "这是我在github搭建的一个读书笔记类型的博客"
+# Site settings
+title: Rifyll
+email: somename@somedomain.com
+description: "Just Another Jekyll Theme"
+logo_location: "https://placeholdit.imgix.net/~text?txtsize=30&bg=F8F8F8&txtclr=002E62&txt=LOGO&w=100&h=100"
 
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
+#Other Global Configuration
+exclude: ['README.md']
+
+excerpt_separator: <!--more-->
+
+#show the jumbotron header on index page
+show_blog_header: true
