@@ -1,56 +1,54 @@
 ---
-title: 首页
-layout: page
+layout: default
+title: 林德熙
 ---
+<div class="well">
+    <div class="list-group">
+      {% for post in paginator.posts %}
+      <div class="list-group-item">
+        <div class="row-content">
+          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          <!-- <p style="font-size: 0.8em">{{ post.date | date: "%Y-%m-%d %H:%M" }}</p> -->
+          <p class="list-group-item-text">{{ post.excerpt }}</p>
+        </div>
+      </div>
+      <div class="list-group-separator"></div>
+      {% endfor %}
+    </div>
+   
 
-<ul class="listing">
-{% for post in paginator.posts %}
-  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
-  {% if year != y %}
-    {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
-  {% endif %}
-  <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    {% if site.truncate %}
-    <p>{{ post.content | strip_html | truncate: site.truncate }}</p>
-    {% endif%}
-  </li>
-{% endfor %}
-</ul>
+    <!-- Pagination links -->
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+      {% if paginator.previous_page %}
+        <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">←</a>
+        </li>
+      {% else %}
+        <li class="previous disabled"><span aria-hidden="true">←</span></li>
+      {% endif %}
 
-<div id="post-pagination" class="paginator">
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="active">
+             <a>{{ page }}<span class="sr-only">(current)</span></a>
+          </li>
+        {% elsif page == 1 %}
+          <li><a href="/">{{ page }}</a></li>
+        {% else %}
+          <li>
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
 
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-    <a href="/"><前页</a>
-    {% else %}
-    <a href="/page{{paginator.previous_page}}">&lt;前页</a>
+      {% if paginator.next_page %}
+        <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">→</a>
+        </li>
+      {% else %}
+        <li class="next disabled"><span>→</span></li>
+      {% endif %}
+    </ul>
     {% endif %}
-  {% else %}
-    <span class="previous disabled">&lt;前页</span>
-  {% endif %}
-
-      {% if paginator.page == 1 %}
-      <span class="current-page">1</span>
-      {% else %}
-      <a href="/">1</a>
-      {% endif %}
-
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-      <span class="current-page">{{count}}</span>
-      {% else %}
-      <a href="/page{{count}}">{{count}}</a>
-      {% endif %}
-    {% endfor %}
-
-  {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">后页&gt;</a>
-  {% else %}
-    <span class="next disabled" >后页&gt;</span>
-  {% endif %}
-  (共{{ paginator.total_posts }}篇)
-</div>
-
+</div><!-- end #home -->
