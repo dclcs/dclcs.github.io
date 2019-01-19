@@ -1,5 +1,5 @@
 ---
-title: "dl-with-python Chapter5"
+title: "dl-with-pythonChapter5"
 author: dcl
 CreateTime: 2019-01-05 17:23:3 +0800
 categoies: deeplearning
