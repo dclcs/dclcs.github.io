@@ -1,49 +1,63 @@
-# [Air Raya Group](http://www.airrayagroup.com/)
+# Utterson
 
-[Sci blog](https://yourfreebies.github.io/sciblog/) is jekyll theme created by [Air Raya Group](http://www.airrayagroup.com/).
+*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. This lawyer is Mr. Gabriel John Utterson, a loyal friend of Jekyll's (and, soon enough, a loyal friend of yours, as well).
 
-[demo](https://yourfreebies.github.io/sciblog/) 
+---
 
-Unless otherwise noted, this theme is released under MIT licence. 
+Utterson was built on top of [Jekyll](http://jekyllrb.com), a static site generator, and  [Poole](https://github.com/poole/poole), a vanilla Jekyll install. It was designed and developed by [@alidcastano](https://twitter.com/alidcastano), to provide a minimal and unassuming theme, focused on what matters: you and your content.
 
-## Credits
-Thank you so much for providing free resources and inspirations
-* [getbootstrap](http://getbootstrap.com/)
-* [jekyll](https://jekyllrb.com/)
-* [startboostrap](http://startbootstrap.com/)
-* [noisetexturegenerator](http://www.noisetexturegenerator.com/)
-* [yellow blue by Christos Alatzas](http://demo-yb.yellowblue.eu/)
+[See the theme in action](http://utterson.alidcastano.com/).
 
-## Getting Started
+<a href="http://utterson.alidcastano.com/">
+<img src="https://cloud.githubusercontent.com/assets/11031952/14027042/22c27794-f1cc-11e5-8a25-9bab1e7920f2.png" atl="home page">
+</a>
+*A minimal home page.*
 
-To use this template, download it [here] (https://github.com/airrayagroupwebdesign/sciblog/archive/master.zip). Contact our team for customization and support. Rates may apply.
-To install *jekyll* and *this theme*
+## Features: 
 
-1. type on search `cmd.exe` or command prompt
-2. In `C:\Users\my pc\desktop\blog>`
-3. Install ruby by going to `http://rubyinstaller.org/downloads/` to download
-4. When installing ruby, make sure to check `add ruby executables to your PATH`
-5. Install jekyll `C:\Users\my pc\desktop\blog\gem install jekyll`
-6. Create jekyll theme  `C:\Users\my pc\desktop\blog\jekyll new my-awesome-site`
-7. Go to blog my-awesome-site `C:\Users\my pc\desktop\blog>cd my-awesome-site`
-8. Preview your blog `C:\Users\my pc\desktop\blog\my-awesome-site>jekyll serve`
-9. Now browse to `http://localhost:4000`
-10. Alternatively, you can download my jekyll theme here `https://github.com/airrayagroupwebdesign/sciblog`
-11. click download zip and unzip it.
-12. You can copy and paste everything inside to blog folder in desktop such as `C:\Users\my pc\desktop\blog>`
-13. Install jekyll-paginate  `C:\Users\my pc\desktop\blog>gem install jekyll-paginate`
-14. Preview the blog and make changes `C:\Users\my pc\desktop\blog>jekyll serve`
-15. Now browse to `http://localhost:4000`
+Utterson provides a fully-functional setup:
 
-## Bugs and Issues
+* **Home Page with according navigation** makes your site is easy to navigate.
+* **Sliding email subscription form** lets you can build your audience in a an unobtrusive manner. 
+* **Simple Contact Form** with [Formspree](http://www.formspree.io/), provides a way for your your readers easily reach you by email, without you having to reveal personal information. 
+* **Scrolling navigation bar** for posts lets readers can easily go back to your home page. 
+* **Fade-in footer** allows you to have one last call to action at the bottom of each post, without getting in the way of your content. 
 
-Have a bug or an issue with this template? Please contact our team airrayagroup@gmail.com or fork and contribute.
+Also, building off Poole's vanilla install:
 
-## Creator
+* **A holistic Jekyll setup** (Layouts, config, [archive page](/archive), [404]({{ site.baseurl }}/404.html), example pages and posts.)
+* **Easily scalable** text and component sizing with `rem` units in the CSS.
+* **Mobile Friendly Design** so that your site can be accessed on any device.
 
-Sci blog theme was created by and is maintained by **Air raya Group Web Design team**, at [Air Raya Group](http://www.airrayagroup.com/).
+<a href="http://utterson.alidcastano.com/I-love-Jekyll">
+<img src="https://cloud.githubusercontent.com/assets/11031952/14027371/b26c503a-f1cd-11e5-9a44-6b8edc8e41cb.png"  atl="posts page">
+</a>
+*Content focused pages, with a sliding email subscription form.*
 
+## Getting Started 
 
-## Copyright and License
+**Make it yours in under 20 minutes.**
 
-Copyright 2015 AIR RAYA GROUP. The work is licenced under MIT[](https://github.com/airrayagroupwebdesign/sciblog/blob/master/LICENSE) license.
+Three simple steps:
+
+1. Edit the <code>_config.yml</code> and put your own information. 
+2. Edit the markdown files in <code>_includes/content</code> and talk about yourself. 
+3. Replace the images in <code>/img</code> directory with your own.
+
+Optionally: 
+
+* You can change default variables in <code>_sass/variables</code> (i.e. if to change nav link colors). 
+* If you don't want to use Formspree for your subscription form, you can change that in <code>_includes/email-form.html</code>.
+
+---
+
+## Next Steps... 
+
+- Add Social Media Icons 
+- Add hover feature for footnotes 
+
+---
+
+### License 
+Open sourced under the[MIT license](LICENSE.md).
+
