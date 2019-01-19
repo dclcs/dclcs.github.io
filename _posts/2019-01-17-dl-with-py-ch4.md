@@ -31,6 +31,7 @@ tags: [dl]
 - $(\frac{\partial f}{\partial x_0}, \frac{\partial f}{\partial x_1})$偏微分的汇总的向量为梯度
 #### 4.4.1 梯度法
 - $\begin{cases} x_0 = x_0 - \eta \frac{\partial f}{\partial x_0} \\ x_1 = x_1 - \eta \frac{\partial f}{\partial x_1}\end{cases}$, $\eta$为学习率
+- !['gradient'](../images/gradient.png)
 
 
 ### 4.5 学习算法实现
