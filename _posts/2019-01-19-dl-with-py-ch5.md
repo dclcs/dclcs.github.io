@@ -5,9 +5,10 @@ categoies: dl
 CreateTime: 2019-01-05 17:23:3 +0800
 ---
 
+deep learning with python
 
-dasd
 <!--more-->
+
 ### 5.1 计算图
 - 局部计算
 ### 5.2 链式法则
