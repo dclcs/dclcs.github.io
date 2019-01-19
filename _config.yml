@@ -1,14 +1,13 @@
-title: 林德熙
+title: dcl
 description: Windows 10 App Developer
-author: lindexi
+author: dcl
 post_author: 林德熙
-logo: /lindexi/img/avatar.png
+logo: /img/avatar.png
 github: https://github.com/lindexi
 about: Windows 10 App Developer
 mail: "lindexi_gd@outlook.com"
 
-baseurl: "/lindexi"
-url: "https://lindexi.gitee.io"
+url: "https://dclcs.github.io"
 
 allowsearch: false
 
