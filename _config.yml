@@ -1,8 +1,9 @@
 name: "Gereksiz"
-markdown: redcarpet
+markdown: kmarkdown
 highlighter: pygments
 permalink: :title
 exclude: [README.md, LICENSE, Makefile]
+url: http://dclcs.github.io
 
 # Information for the Atom feed
 gereksiz:
