@@ -3,9 +3,10 @@ title: "dl-with-python Chapter2"
 author: dl
 categoies: CG
 CreateTime: 2019-01-13 17:23:3 +0800
+date: 2019-01-13 17:23:3 +0800
 ---
-
-
+deep learning with python
+<!--more-->
 ## 感知机
 ### 2.1 感知机是什么
 - 接受多个信号，输出一个信号
