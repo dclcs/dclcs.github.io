@@ -3,6 +3,7 @@ title: "dl-with-python Chapter4"
 author: dcl
 categoies: dl
 CreateTime: 2019-01-05 17:23:3 +0800
+date: 2019-01-05 17:23:3 +0800
 ---
 
 deep learning with python
