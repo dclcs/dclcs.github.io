@@ -2,9 +2,12 @@
 title: "deep learning with python notes 数据表达"
 author: dcl
 categoies: CG
-CreateTime: 2019-01-05 17:23:3 +0800
----
+CreateTime: 2019-01-05 16:23:3 +0800
+date: 2019-01-05 16:23:3 +0800
 
+---
+CG
+<!--more-->
 ### 张量
 三个属性
 - 轴的个数（阶）
