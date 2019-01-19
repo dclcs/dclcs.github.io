@@ -6,17 +6,10 @@ logo: /img/avatar.png
 github: https://github.com/lindexi
 about: Windows 10 App Developer
 mail: "lindexi_gd@outlook.com"
-url: "https://lindexi.gitee.io"
+url: "https://dcl.github.io"
 
 allowsearch: false
 
-analytics:
-  google: UA-110214503-1
-disqus:
-  name: lindexi
-
-share:
-  twitter_username: lindexi_gd
 
 
 enableTags: true
@@ -45,12 +38,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "林德熙"
+      author: "dcl"
       permalink: "/post/:title.html"
   - scope:
       path: "_articles"
       type: "articles"
     values:
       layout: "post"
-      author: "林德熙"
+      author: "dcl"
       permalink: "/article/:title.html"
