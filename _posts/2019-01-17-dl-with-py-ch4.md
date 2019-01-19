@@ -6,6 +6,7 @@ CreateTime: 2019-01-05 17:23:3 +0800
 ---
 
 deep learning with python
+
 <!--more -->
 
 
@@ -39,3 +40,5 @@ deep learning with python
 - 计算梯度
 - 更新参数
 - 重复
+
+
