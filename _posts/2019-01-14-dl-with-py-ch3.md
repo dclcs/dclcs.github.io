@@ -5,6 +5,10 @@ categoies: CG
 CreateTime: 2019-01-14 17:23:3 +0800
 ---
 
+deep learning with python
+
+<!--more-->
+
 ## 神经网络
 ### 3.2 感知机
 - 将$y = \begin{cases} 0 & (b+w_1x_1 + w_2x_2 \le 0) \\\ 1 & (b+w_1x_1+w_2x_2 \gt 0) \end{cases}$改写成$y=h(b+w_1x_1+w_2x_2)$，其中$h(x) = \begin{cases} 0 & (x \le 0) \\\ 1 & (x \gt 0)\end{cases}$,称$h(x)$为激活函数/阶跃函数。
