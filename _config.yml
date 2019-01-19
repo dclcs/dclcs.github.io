@@ -1,11 +1,16 @@
-name: "Gereksiz"
-markdown: kmarkdown
-highlighter: pygments
-permalink: :title
-exclude: [README.md, LICENSE, Makefile]
+markdown: kramdown
+permalink: /:title/
 url: http://dclcs.github.io
+name: 小天才的BLOG
+author: DCL
+qq: 2351741841
+email: dcl_1016@outlook.com
+duoshuo: none
+beian: 123456 
+cnzz: 0000
+github: dclcs
+pygments: true
+safe: true
+paginate: 20
+about: "这是我在github搭建的一个读书笔记类型的博客"
 
-# Information for the Atom feed
-gereksiz:
-   author: "John Doe"
-   email: "john.doe@mail.sexy"
