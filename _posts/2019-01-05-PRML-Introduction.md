@@ -1,5 +1,5 @@
 ---
-title: "PRML Introduction"
+title: "1.1 PRML Introduction"
 author: dcl
 categoies: PRML
 CreateTime: 2019-01-05 17:23:3 +0800
