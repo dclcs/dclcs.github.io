@@ -12,4 +12,4 @@ Architecture: Two Layer network, Two Affine ,Activation: Relu and the last layer
 <!--more-->
 
 ### 目标
-用两层网络实现
+<b>用两层网络实现</b>
