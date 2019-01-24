@@ -39,3 +39,7 @@ deep learning with python
 - 交叉熵: $L = -\sum_kt_klogy_k$
 - $\frac{\partial L}{\partial a_k} = \frac{\partial L}{\partial y_k}\frac{\partial y_k}{\partial a_k} =-t_k\frac{1}{y_k}(\frac{exp(a_k)\sum_{i=1}^nexp(a_i) - exp(a_k)^2}{(\sum_{i=1}^nexp(a^i))^2}) =-t_k\frac{1}{y_k}(\frac{exp(a_k)}{\sum_{i=1}{n}} - (\frac{exp(a_k)}{\sum_{i=1}^n})^2) = -t_k\frac{1}{y_k}(y_k - y_k^2) = t_k(y_k - 1)$
 ### 5.7 误差反向传播法的实现
+#### 5.7.1学习步骤
+- 步骤一、mini-batch 从训练数据中选择一部分数据
+- 步骤二、计算梯度
+- 步骤三、更新参数
