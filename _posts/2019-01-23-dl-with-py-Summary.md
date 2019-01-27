@@ -13,3 +13,16 @@ Architecture: Two Layer network, Two Affine ,Activation: Relu and the last layer
 
 ### 目标
 <b>用两层网络实现</b>
+### 架构
+- LayerOne    :   `Input([图片展开向量], )`<br>
+    - Weights: 
+    - Bais
+    - Activation: `Relu`<br>
+- LayerTwo
+    - Weights: 
+    - Bais
+    - Activation : `Relu`
+- Output
+    - Softmax
+- Loss
+    - crossentropy
