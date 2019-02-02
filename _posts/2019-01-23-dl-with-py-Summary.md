@@ -47,3 +47,8 @@ $\frac{dL}{db} = \frac{dL}{dY} * \frac{dY}{db} = dout * 1$<br>
         - 改进：$y_k = \frac {exp(a_k)}{\sum_{i=1}^n exp(a_i)} = \frac {Cexp(a_k)}{C\sum_{i=1}^n exp(a_i)} = \frac {exp(a_k + logC)}{\sum_{i=1}^n exp(a_i + logC)}= \frac {exp(a_k + C^{'})}{\sum_{i=1}^n exp(a_i + C^{'})}$
 - crossentropy:
     - $\mathbf E = -\sum_kt_klogy_k$,$y_k$是正确输出，$t_k$是正确理解标签，并且$t_k$中只有正确解标签为1，其他均为0（one-hot表示）
+- softmaxwithcrossentropy
+    - forward : 先进行`softmax`，再计算`crossentropy`<br>
+    $y = softmax(x)$<br>
+    $loss = cross\_entropy(y, t)$
+    - backward: 
