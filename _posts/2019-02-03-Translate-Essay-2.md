@@ -36,4 +36,5 @@ Learning to Compare Image Patches via Convolutional Neural Networks
 
 #### 3.1 Basic Models
 
-- 孪生网络（`Siamese`）
+- 孪生网络（`Siamese`）：这种类型的网络与有一个描述符类似。孪生网络有两个分支，这两个分组共享同样的架构同样的权重。每一个分支的输入为匹配图像的一张图片，并且通过一系列的卷积层、`ReLU`和最大池化层。在我们的测试中，我们使用一个顶层网络，这个顶层网络包含2个线性全连接层（每个有512个隐藏单元），这两个全连接层由一个ReLU激活层分开。<br>
+孪生网络的每个分支被看作描述符计算模块（`ddescriptor computation modules`）和顶层网络---可以看作相似函数（`similarity function`）。
