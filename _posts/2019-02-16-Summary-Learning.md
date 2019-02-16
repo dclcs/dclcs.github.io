@@ -25,4 +25,9 @@ date: 2019-02-16 11:01:19
     - 即将使用的方法
         -  [`pinocchio `](https://github.com/elrond79/Pinocchio)中既然可以计算每个骨骼点的权重，也用到了`lbs`(`linear blend skinning`)，那么应该有每个点对关节点权重的计算
         - 阅读 [`pinocchio `](https://github.com/elrond79/Pinocchio)的代码找到如何计算关节点的权重的代码`snippets`
+- 关于`lbs`的一些问题
+    - [`pinocchio `](https://github.com/elrond79/Pinocchio)中关于`lbs`的计算是每个点到骨骼的权重
+    - 相反的`SMPL`中`lbs`是每个点到关节点的权重
+    - 如何处理这些问题是一个难题
+
 <!-- ### 三、 -->
