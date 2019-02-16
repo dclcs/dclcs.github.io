@@ -24,4 +24,5 @@ date: 2019-02-16 11:01:19
             - 但是我们需要的是关节点的权重
     - 即将使用的方法
         -  [`pinocchio `](https://github.com/elrond79/Pinocchio)中既然可以计算每个骨骼点的权重，也用到了`lbs`(`linear blend skinning`)，那么应该有每个点对关节点权重的计算
+        - 阅读 [`pinocchio `](https://github.com/elrond79/Pinocchio)的代码找到如何计算关节点的权重的代码`snippets`
 <!-- ### 三、 -->
