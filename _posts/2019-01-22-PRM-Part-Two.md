@@ -25,7 +25,7 @@ date: 2019-01-22 17:23:3 +0800
     - $\mathbb E[x^2] = \int^{\infty}_{-\infty}\mathcal N(x\mid \mu, \sigma^2)x^2dx = \mu^2 + \sigma^2$
     - $var[x] = \mathbb E[x^2] - \mathbb E[x]^2 = \sigma^2$
 - 多个变量(用向量表示)
-    - $\mathcal N(\mathbf x \mid \mathbf \mu, \mathbf \Sigma) = \frac{1}{(2\pi)^{\frac{D}{2}}}\frac{1}{\mid \mathbf \Sigma\mid^{\frac{1}{2}}}exp\{-\frac12(\mathbf x - \mathbf \mu)^T\mathbf \Sigma^{-1}(\mathbf x - \mathbf \mu)\}$,其中$\bf \mu$为$D$维向量的均值，$\bb \Sigma$为$D\times D$的矩阵为协方差,$\mid \mathbf \Sigma \mid$为矩阵的行列式
+    - $\mathcal N(\mathbf x \mid \mathbf \mu, \mathbf \Sigma) = \frac{1}{(2\pi)^{\frac{D}{2}}}\frac{1}{\mid \mathbf \Sigma\mid^{\frac{1}{2}}}exp\{-\frac12(\mathbf x - \mathbf \mu)^T\mathbf \Sigma^{-1}(\mathbf x - \mathbf \mu)\}$,其中$\bf \mu$为$D$维向量的均值，$\bf \Sigma$为$D\times D$的矩阵为协方差,$\mid \mathbf \Sigma \mid$为矩阵的行列式
 - 使用观察到的数据区决定概率分布中的参数的一个通用表准是<b>最大化似然函数</b>
 - 假设每个$x_i$独立同分布(`iid`)
     - $p(\mathbf x \mid \mu, \sigma^2) = \prod_{n=1}^N\mathcal N(x_n \mid \mu, \sigma^2)$，用另外的形式表达写成,$lnp(\mathbf x \mid \mu, \sigma^2) = -\frac{1}{2\sigma^2}\sum_{n=1}^N(x_n - \mu)^2 - \frac{N}{2}ln\sigma^2 - \frac{N}{2}ln(2\pi)$
