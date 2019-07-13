@@ -12,15 +12,7 @@
 <html class="{{ html_class | downcase }}" lang="{{ site.language }}">
 <head>
   {% include _partials/head.html %}
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-          tex2jax: {
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-          inlineMath: [['$','$']]
-          }
-      });
-    </script>
+  
   <title>{{ title }}</title>
   {% include _third-party/analytics/index.html %}
 </head>
