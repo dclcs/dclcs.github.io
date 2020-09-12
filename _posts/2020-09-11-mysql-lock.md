@@ -57,7 +57,7 @@ tags:
 ### 死锁和死锁检测
 这里我用数据库中的行锁举个例子。
 
-![img](img/dead_lock.jpg)
+![img](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/dead_lock.jpg)
 
 这时候，事务 A 在等待事务 B 释放 id=2 的行锁，而事务 B 在等待事务 A 释放 id=1 的行锁。 事务 A 和事务 B 在互相等待对方的资源释放，就是进入了死锁状态。当出现死锁以后，有两种策略：
 
