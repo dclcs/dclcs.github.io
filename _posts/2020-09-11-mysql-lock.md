@@ -44,7 +44,7 @@ tags:
 
 我先给你举个例子。在下面的操作序列中，事务 B 的 update 语句执行时会是什么现象呢？假设字段 id 是表 t 的主键。
 
-![img](img/lock.jpg)
+![img](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/lock.jpg)
 
 这个问题的结论取决于事务 A 在执行完两条 update 语句后，持有哪些锁，以及在什么时候释放。你可以验证一下：实际上事务 B 的 update 语句会被阻塞，直到事务 A 执行 commit 之后，事务 B 才能继续执行。
 
