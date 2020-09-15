@@ -49,7 +49,7 @@ mysql> insert into T values(100,1, 'aa'),(200,2,'bb'),(300,3,'cc'),(500,5,'ee'),
 
 B+ 树这种索引结构，可以利用索引的“最左前缀”，来定位记录。为了直观地说明这个概念，我们用（name，age）这个联合索引来分析。
 
-![img](img/left_match.jpg)
+![img](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/left_match.jpg)
 
 当你的逻辑需求是查到所有名字是“张三”的人时，可以快速定位到 ID4，然后向后遍历得到所有需要的结果。
 
