@@ -86,4 +86,4 @@ PEP* bestPieces = new PEP[10]; // OK!
 - 方法有两个缺点：
   - 必须记得将数组的所有对象删除，如果忘记会造成资源泄露（resource leak）
   - 需要的内存会比较大，需要空间存放指针；也需要一些空间用来放置`objects`
-- 类中没有`default ctor`会
+- 类中没有`default ctor`会使得创建对象数组受阻；也不适用于大多是`template-based-container-class`
