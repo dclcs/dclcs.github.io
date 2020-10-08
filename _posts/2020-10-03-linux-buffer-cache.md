@@ -19,7 +19,7 @@ Swap:             0           0           0
 
 ### free 数据的来源
 
-![](img/buffer_cahce.png)
+![](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/buffer_cahce.png)
 
 
 - Buffers 是内核缓冲区用到的内存，对应的是 /proc/meminfo 中的 Buffers 值。
