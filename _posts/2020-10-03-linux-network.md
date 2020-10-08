@@ -25,7 +25,7 @@ tags:
 - 传输层取出 TCP 头或者 UDP 头后，根据 < 源 IP、源端口、目的 IP、目的端口 > 四元组作为标识，找出对应的 Socket，并把数据拷贝到 Socket 的接收缓存中。
 - 最后，应用程序就可以使用 Socket 接口，读取到新接收到的数据了。
 
-![](img/network_re.png)
+![](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/network_re.png)
 
 
 #### 网络包的发送流程
