@@ -35,7 +35,7 @@ tags:
 ### 虚拟内存空间分布
 
 
-![](img/linux-memory-organize.pngs)
+![](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/linux-memory-organize.pngs)
 
 
 
