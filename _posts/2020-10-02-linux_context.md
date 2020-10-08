@@ -21,7 +21,7 @@ tags:
     - 内核空间： 具有最高权限，可以直接访问所有资源；
     - 用户空间：只能访问受限资源，不能直接访问内存等硬件设备，必须通过系统调用陷入到内核中，才能访问这些特权资源。
 
-![](img/kernel_space.png)
+![](https://raw.githubusercontent.com/dclcs/dclcs.github.io/master/_posts/img/kernel_space.png)
 
 
 - 从用户态到内核态的转变，需要通过**系统调用**来完成。
